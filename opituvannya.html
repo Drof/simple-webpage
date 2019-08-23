@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="uk" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple webpage</title>
+</head>
+<body>
+    <form method="post" action="https://formspree.io/drofiaka@gmail.com">
+        <label>
+            Імя користувача: <input type="text" />
+        </label>
+        <br />
+        <label for="user-email">Електронна адреса:</label>
+        <input id="user-email" type="email" name="user-email" />
+        <br />
+        <label>Оберіть стать</label>
+        <label>
+            <input type="radio" name="gender" value="man" /> Чоловік
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"/> Жінка
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other" /> Інша
+        </label>
+        <br />
+        <label>Чи є у Вас собака?</label>
+        <lable>
+            <input type="radio" name="dog" /> Так
+        </lable>
+        <lable>
+            <input type="radio" name="dog" /> Ні
+        </lable>
+        <lable>
+            <input type="radio" name="dog" /> Ні,але планую завести
+        </lable>
+        <br />
+        <label>Як часто ви з нею гуляєте?</label>
+        <label>
+            <input type="radio" name="number" /> 1-2 рази на день
+        </label>
+        <label>
+            <input type="radio" name="number" /> 2-3 рази на день
+        </label>
+        <label>
+            <input type="radio" name="number" /> більше трьох раз на день
+        </label>
+        <br />
+        <input type="button" value="Відправити" />
+    </form>
+</body>
+</html>
